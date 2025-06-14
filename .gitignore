@@ -1,0 +1,36 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+venv/
+env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Environment variables and secrets
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Database and cache
+*.db
+*.sqlite3
+knowledge_base.db
+node_modules/
+__pycache__/
+*.db
+*.jsonl
+*.webp
+*.csv
+.env
+.promptfoo/
+.promptfoo-results/
+.cache/
+*.log
+
+
