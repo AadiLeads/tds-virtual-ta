@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: tds-virtual-ta
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app:app --host 0.0.0.0 --port 10000
+    envVars:
+      - key: API_KEY
+        value: eyJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6IjIzZjMwMDE0MTZAZHMuc3R1ZHkuaWl0bS5hYy5pbiJ9.BWYCdPddLMG5jTTKOy3ElL24LBFZhD-q71r0d1mmDxM
+    plan: free
